@@ -27,35 +27,3 @@ angular.module('mainModule').controller('homeController', function($scope, postR
     }, fetchPosts);
   };
 });
-// angular.module('mainModule').config(function($routeProvider) {
-//   $routeProvider.
-//   when('/home', {
-//     templateUrl: 'partials/home.html',
-//     controller: 'homeController'
-//   }).
-//   when('/about', {
-//     templateUrl: 'partials/about.html'
-//   }).
-//   otherwise({
-//     redirectTo: '/home'
-//   });
-// });
-
-// angular.module('mainModule').run(function($rootScope, userResource, countVisitor) {
-//   userResource.get({
-//     id: 'myself'
-//   }, function(data) {
-//     $rootScope.myself = data;
-//     countVisitor.get({
-//       id: data._id
-//     }, function(data) {
-//       $rootScope.userCount = data.userCount;
-//     });
-//   });
-// });
-
-
-// angular.module('mainModule').factory('postResource', function($resource) {
-//   return $resource('posts/:id');
-// });
-//

@@ -4,7 +4,7 @@ Ethereum Developing Environment with Express(Node.js) Framework
 
 * Express4 Based 
 * Including easy-livereload
-
+* and some other developing-support modules
 
 
 To Start app.js server
@@ -20,3 +20,13 @@ To Start app.js server
 
 2.'npm run start'
 (The Same as command "node app.js")
+
+
+File description
+
+* public/javascript/main.js
+
+browser functions written in AngularJS
+
+* routes/lib
+some modules to Interact with Ethereum server(Using geth)
