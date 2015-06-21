@@ -24,6 +24,6 @@ To Start app.js server
 
 File description
 
-* public/javascript/main.js  : rowser functions written in AngularJS
+* public/javascript/main.js  :written in AngularJS
 
 * routes/lib  : some modules to Interact with Ethereum server(Using geth)
